@@ -211,6 +211,22 @@ function requestSearch(params, resultCallback) {
 // Render file list
 function list(path) {
 	var content = `
+	<link rel="stylesheet" href="https://cdn.discordapp.com/attachments/619807479219486721/820932777288400976/style.css">
+	<p class="centerr tekstt"></br>
+	<img src="https://i.imgur.com/Dfa1dvO.png" class="centerr responsivee"></br></br>W sezonie zimowym wydajemy:</br>
+	<a href="https://anilist.co/anime/109261/5Toubun-no-Hanayome-">✧ 5-Toubun no Hanayome ∬</a></br>
+	<a href="https://anilist.co/manga/108547/Azur-Lane-Bisoku-Zenshin">✧ Azur Lane: Bisoku Zenshin!</a></br>
+	<a href="https://anilist.co/anime/124080/Horimiya/">✧ Horimiya</a></br>
+	<a href="https://anilist.co/anime/113425/Kaifuku-Jutsushi-no-Yarinaoshi">✧ Kaifuku Jutsushi no Yarinaoshi</a></br>
+	<a href="https://anilist.co/anime/103632/Kumo-desu-ga-Nani-ka">✧ Kumo Desu ga, Nani ka?</a></br>
+	<a href="https://anilist.co/anime/108465/Mushoku-Tensei-Jobless-Reincarnation/">✧ Mushoku Tensei: Isekai Ittara Honki Dasu</a></br>
+	<a href="https://anilist.co/anime/109403/Non-Non-Biyori-Nonstop/">✧ Non Non Biyori Nonstop</a>
+	</br><a href="https://anilist.co/anime/119661/ReZERO-Starting-Life-in-Another-World-Season-2-Part-2/">✧ Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2</a>
+	</br><a href="https://anilist.co/anime/112649/Suppose-a-Kid-from-the-Last-Dungeon-Boonies-moved-to-a-starter-town/">✧ Tatoeba Last Dungeon</a></br></br>
+	Wpadnij na naszego discorda!</br><a href="https://discordapp.com/invite/V625Q7R">https://discordapp.com/invite/V625Q7R</a>
+	</br>
+	</p>
+
   <div class="container"><br>
   <div class="card">
   <h5 class="card-header" id="folderne"><input type="text" id="folderne" class="form-control" placeholder="Bieżąca ścieżka: Strona główna" value="" readonly><script>document.getElementById("folderne").innerHTML='Bieżący katalog: '+decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')-1))).replace('/','').replace('/','');</script>
