@@ -94,7 +94,7 @@ function nav(path) {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/${cur}:/">Home</a>
+        <a class="nav-link" href="/${cur}:/">Strona główna</a>
       </li>`;
 	var names = window.drive_names;
 	var drive_name = window.drive_names[cur];
