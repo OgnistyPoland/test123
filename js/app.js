@@ -211,7 +211,20 @@ function requestSearch(params, resultCallback) {
 // Render file list
 function list(path) {
 	var content = `
-	<link rel="stylesheet" href="https://cdn.discordapp.com/attachments/619807479219486721/820932777288400976/style.css">
+	<style>
+	.tekstt {
+		text-align: center;
+	}
+	.centerr {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.responsivee {
+		max-width: 100%;
+		height: auto;
+	}
+	</style>
 	<p class="centerr tekstt"></br>
 	<img src="https://i.imgur.com/Dfa1dvO.png" class="centerr responsivee"></br></br>W sezonie zimowym wydajemy:</br>
 	<a href="https://anilist.co/anime/109261/5Toubun-no-Hanayome-">✧ 5-Toubun no Hanayome ∬</a></br>
